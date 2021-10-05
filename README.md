@@ -17,7 +17,7 @@ The function returns a PIXI `sprite` object, so that the sprite is placed into t
 let mySpriteName = initSprite(file, x, y, size, container);
 ```
 ### **Easing and animation**
-Similar to sprite initalization, the animations applied to the sprites are done through a function call in an animation loop. There are two ease options that calculate the sine and cosine wave given a time value, amplitude, period, and offset. These eases can be applied to any sprite or container property, in this case, the `x`, `y`, and `rotation` properties. These are all combined to make the fish floating look extra-realistic, and the "fish tank" to have a parallax effect,
+Similar to sprite initalization, the animations applied to the sprites are done through a function call in an animation loop. There are two ease options that calculate the sine and cosine wave given a time value, amplitude, period, and offset. These eases can be applied to any sprite or container property, in this case, the `x`, `y`, and `rotation` properties. These are all combined to make the fish floating look extra-realistic, and the "fish tank" to have a parallax effect.
 
 ## **Image Attribution**
 [**Fish Tank Rocks**](https://m.media-amazon.com/images/I/71OB9GNAlXL._AC_SL1000_.jpg)
